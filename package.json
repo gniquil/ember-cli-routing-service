@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-routing-service",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Transition routes anywhere with no magic.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,7 +38,11 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "transition",
+    "components",
+    "service",
+    "routing"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
