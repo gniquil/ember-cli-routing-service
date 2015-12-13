@@ -52,7 +52,7 @@ you can also do the following:
 // in app/routes/application.js
 
 import Ember from 'ember';
-import TransitionToListenerMixin from '../mixins/transition-to-listener';
+import TransitionToListenerMixin from 'ember-cli-routing-service/mixins/transition-to-listener';
 
 export default Ember.Route.extend(TransitionToListenerMixin, {
   init: function() {
